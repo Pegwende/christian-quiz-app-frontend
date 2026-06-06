@@ -61,7 +61,7 @@ export function HomePage({ onStartQuiz }: HomePageProps) {
 
       {/* Decorative Branding Footer */}
       <p className="mt-8 text-xs text-slate-600 font-medium tracking-wide">
-        Powered by Spring Boot & Supabase
+        A Gift to my lovely wife, Rafi ❤️
       </p>
     </div>
   );
