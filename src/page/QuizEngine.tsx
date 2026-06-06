@@ -36,7 +36,7 @@ export function QuizEngine({ category, onQuit }: QuizEngineProps) {
 
   // 1. Fetch live quiz questions from your Render API on mount
   useEffect(() => {
-    fetch(`${API_BASE_URL}/question/allQuestions`)
+    fetch(`${API_BASE_URL}/question/category/${category}`)
       .then((res) => res.json())
       .then((data: Question[]) => {
         console.log("questions: ", data)
